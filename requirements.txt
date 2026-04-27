@@ -1,0 +1,16 @@
+# crewai
+# gradio
+# pandas
+# scikit-learn
+# python-dotenv
+# langchain-openai
+
+crewai
+gradio>=4.44.0
+pandas
+numpy
+scikit-learn
+matplotlib
+openpyxl
+python-dotenv
+langchain-openai
