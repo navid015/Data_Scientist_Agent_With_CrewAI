@@ -1,29 +1,3 @@
-"""
-CrewAI AutoML — Regression Pipeline (Improved)
-
-Improvements vs the previous version
-------------------------------------
-1.  NotebookCodeExecutor is now actually wired to the CrewAI agent so the
-    agent can execute and validate the trained pipeline instead of only
-    writing prose.
-2.  CrewAI review is now optional — if no API key is provided, the model
-    pipeline still trains and renders; only the LLM summary is skipped.
-3.  UI is reorganised into tabs (Data, Configure, Results, Predict,
-    Code & Review) for far less scrolling.
-4.  Streaming progress log so the user sees what's happening step by step.
-5.  Test-set id column is preserved if one exists (user-selectable),
-    instead of always overwriting it with np.arange.
-6.  Sample prediction has a row selector (slider) instead of always row 0.
-7.  Trained pipeline can be downloaded as a .joblib file.
-8.  API-key validation accepts any non-empty string and supports OpenAI,
-    Azure, and proxy keys; OpenAI model name is now configurable.
-9.  Removed dead module-level globals (_LAST_*).
-10. Errors now surface in a dedicated status banner rather than being
-    dumped into the code textbox.
-11. Optional "Download all artifacts as ZIP" bundles charts, code,
-    submission, and fitted model in one file.
-"""
-
 import base64
 import importlib
 import io
