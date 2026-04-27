@@ -1,10 +1,3 @@
-# crewai
-# gradio
-# pandas
-# scikit-learn
-# python-dotenv
-# langchain-openai
-
 crewai
 gradio>=4.44.0
 pandas
@@ -14,3 +7,4 @@ matplotlib
 openpyxl
 python-dotenv
 langchain-openai
+pyaudioop
