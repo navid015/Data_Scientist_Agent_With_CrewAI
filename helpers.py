@@ -1925,7 +1925,6 @@ def on_run(train_df, valid_df, test_df,
         preprocess_html = _render_preprocessing_summary(summary)
         metrics_html = _render_metrics(default_metrics, default_model, target_col, eval_source)
 
-        # Comparison table — MAPE % column dropped per request.
         comparison_display = comparison_df_full[["Model", "MAE", "MSE", "RMSE", "R2"]].copy()
         comparison_display = comparison_display.assign(**{
             "MAE":  comparison_display["MAE"].map(lambda x: f"{x:.4f}"),
