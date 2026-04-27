@@ -1,7 +1,3 @@
-"""
-CrewAI AutoML — Entry point.
-Loads CSS from styles.css, imports all helpers, builds the Gradio UI.
-"""
 import os
 import gradio as gr
 import pandas as pd
@@ -18,15 +14,13 @@ with gr.Blocks(css=CSS, title="CrewAI AutoML", theme=gr.themes.Base()) as demo:
     train_df_state = gr.State(None)
     valid_df_state = gr.State(None)
     test_df_state = gr.State(None)
-    # Store the original filenames so the generated reproducible script can
-    # reference them by name (instead of placeholders like 'train.csv').
     train_path_state = gr.State(None)
     valid_path_state = gr.State(None)
     test_path_state = gr.State(None)
 
     gr.HTML("""
     <div class="header-band">
-      <p class="header-title">⚡ Data Scientist Agent with CrewAI for End-to-End Regression Modeling</p>
+      <p class="header-title">⚡ ML Engineer Agent with CrewAI for End-to-End Regression Modeling</p>
       <p class="header-sub">
         Autonomous AI agents collaborate to preprocess any dataset, train & compare
         multiple models, generate reproducible code, and deliver expert-level review
