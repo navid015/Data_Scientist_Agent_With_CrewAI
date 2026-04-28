@@ -1,4 +1,5 @@
-gradio==4.44.1
+gradio==4.31.5
+gradio_client==0.16.4
 huggingface_hub==0.23.5
 crewai
 pandas
@@ -8,3 +9,4 @@ matplotlib
 openpyxl
 python-dotenv
 langchain-openai
+pydantic==2.7.4
