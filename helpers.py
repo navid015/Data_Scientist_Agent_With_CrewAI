@@ -35,6 +35,9 @@ from sklearn.model_selection import (
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, RobustScaler
 
+import os
+api_key = os.environ.get("OPENAI_API_KEY")
+
 # Local custom CrewAI tool — now actually used.
 try:
     from notebookExecutor import NotebookCodeExecutor
