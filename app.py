@@ -3,6 +3,9 @@ import gradio as gr
 import pandas as pd
 from helpers import *  # noqa: F403, F401
 
+import os
+api_key = os.environ.get("OPENAI_API_KEY")
+
 # Load CSS from external file
 _css_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "styles.css")
 with open(_css_path, "r") as _f:
