@@ -1,5 +1,6 @@
-gradio==4.44.1
-huggingface_hub==0.25.0
+gradio==4.36.0
+gradio_client==0.17.0
+huggingface_hub==0.23.0
 crewai
 pandas
 numpy
