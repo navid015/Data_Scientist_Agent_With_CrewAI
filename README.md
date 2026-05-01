@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CrewAI AutoML — Fully Agent-Based
 
 This project replaces every scikit-learn Pipeline/ColumnTransformer with five
@@ -40,3 +41,48 @@ python app.py
 ```
 
 Open http://127.0.0.1:7860 in your browser. You will need an OpenAI API key.
+=======
+<!-- ---
+title: CrewAI Supplement Sales ML
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: false
+--- -->
+
+---
+title: CrewAI AutoML Regression Pipeline
+emoji: ⚡
+colorFrom: purple
+colorTo: cyan
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: false
+---
+
+# ⚡ CrewAI AutoML — Regression Pipeline
+
+Upload **any tabular dataset** (CSV or Excel), pick a target column, and let 3 AI agents automatically:
+
+1. **Plan** the ML pipeline
+2. **Preprocess** & encode the data
+3. **Train** a Random Forest, print metrics & feature importances
+
+## How to use
+
+1. Upload your CSV or Excel file
+2. Preview the first 10 rows in the interface
+3. Select the column you want to predict
+4. Enter your OpenAI API key
+5. Click **Run Pipeline**
+
+## Requirements
+
+- OpenAI API key (`gpt-4.1-mini`)
+- Dataset with at least one numeric target column
+- Supported formats: `.csv`, `.xlsx`, `.xls`
+>>>>>>> 6292a482cf1e2f547f6a880fb59fdb116f3f1bc2
