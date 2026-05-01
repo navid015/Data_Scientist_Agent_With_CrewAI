@@ -1,5 +1,6 @@
 """
 app.py — Gradio UI for the fully agent-based AutoML application.
+
 The UI is preserved from the original project. All ML logic (preprocessing,
 training, evaluation, code generation) is now performed by five CrewAI agents
 (ml_agents.py) that write results to the shared STATE (ml_state.py).
