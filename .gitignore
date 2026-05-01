@@ -43,4 +43,4 @@ Thumbs.db
 *.joblib
 output/
 logs/
-EOF
+EOF.env
